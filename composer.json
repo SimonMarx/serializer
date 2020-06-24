@@ -1,0 +1,12 @@
+{
+  "name": "simonmarx/serializer",
+  "type": "symfony-bundle",
+  "require": {
+    "symfony/http-kernel": "^5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SimonMarx\\Symfony\\Bundles\\Serializer\\": "src/"
+    }
+  }
+}
